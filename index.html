@@ -14,6 +14,23 @@
 </head>
 
 <body>
+    <header class="sticky top-0 bg-white z-50">
+    <div class="hidden max-lg:flex max-lg:justify-end px-6 py-4">
+        <button id="menu-btn" class="text-xl">☰</button>
+    </div>
+    <nav id="menu" class="flex justify-end px-[54px] space-x-[30px] py-[24px] text-[20px] font-[500] tracking-[0px] text-[#000000] max-lg:hidden max-lg:flex-col max-lg:px-6 max-lg:py-4 max-lg:space-x-0 max-lg:space-y-4 max-lg:text-[15px]">
+        <a href="works.html">Works</a>
+        <a href="blog.html">Blog</a>
+    </nav>
+</header>
+<script>
+    const btn = document.getElementById('menu-btn');
+    const menu = document.getElementById('menu');
+    btn.addEventListener("click", () => {
+        menu.classList.toggle("max-lg:hidden");
+        btn.textContent = btn.textContent === "☰" ? "✕" : "☰";
+    });
+</script>
     <div class="flex gap-[115px] justify-center max-lg:flex-col-reverse max-lg:items-center max-lg:gap-[43px] mt-[3%]">
         <div>
             <h1
@@ -42,7 +59,7 @@
                 View all</p>
         </div>
     
-        <div class="flex gap-[20px] max-lg:flex-col justify-center max-lg:p-[10px]">
+        <div class="lg:w-[856px] mx-auto flex gap-[20px] max-lg:flex-col justify-center max-lg:p-[10px]">
             <div class="bg-[#FFFFFF] rounded-[4px] p-[23px] max-lg:w-full max-lg:p-[22px]">
                 <h2 class="text-[26px] leading-full tracking-[0px] mb-[23px] font-bold text-[#21243D] max-lg:text-[22px]">Making a
                     design system from

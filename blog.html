@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Heebo:wght@100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Heebo', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="sticky top-0 bg-white z-50">
+        <div class="hidden max-lg:flex max-lg:justify-end px-6 py-4">
+            <button id="menu-btn" class="text-xl">☰</button>
+        </div>
+        <nav id="menu"
+            class="flex justify-end px-[54px] space-x-[30px] py-[24px] text-[20px] font-[500] tracking-[0px] text-[#000000] max-lg:hidden max-lg:flex-col max-lg:px-6 max-lg:py-4 max-lg:space-x-0 max-lg:space-y-4 max-lg:text-[15px]">
+            <a href="works.html">Works</a>
+            <a href="blog.html">Blog</a>
+            
+        </nav>
+    </header>
+    <script>
+        const btn = document.getElementById('menu-btn');
+        const menu = document.getElementById('menu');
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("max-lg:hidden");
+            btn.textContent = btn.textContent === "☰" ? "✕" : "☰";
+        });
+    </script>
+    
+   <div class="mx-auto px-6 py-8 max-w-[856px]">
+    <h2 class="font-bold text-[44px] leading-[60px] text-[#21243D] mb-8">Blog</h2>
+    
+    <div class="pb-8 border-b border-[#E0E0E0]">
+        <h3 class="font-medium text-[26px] leading-[38px] text-[#21243D]">UI Interactions of the week</h3>
+        <div class="flex items-center mt-4 space-x-4">
+            <span class="font-normal text-[18px] leading-[26px] text-[#21243D]">12 Feb 2019</span>
+            <span class="">|</span>
+            <span class="font-normal text-[18px] leading-[26px] text-[#8695A4]">Express, Handlebars</span>
+        </div>
+        <p class="font-normal text-[16px] leading-[24px] text-[#21243D] mt-4">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+        </p>
+    </div>
+</div>
+     <div class="mx-auto px-6 py-8 max-w-[856px]">
+    <h2 class="font-bold text-[44px] leading-[60px] text-[#21243D] mb-8">Blog</h2>
+    
+    <div class="pb-8 border-b border-[#E0E0E0]">
+        <h3 class="font-medium text-[26px] leading-[38px] text-[#21243D]">UI Interactions of the week</h3>
+        <div class="flex items-center mt-4 space-x-4">
+            <span class="font-normal text-[18px] leading-[26px] text-[#21243D]">12 Feb 2019</span>
+            <span class="">|</span>
+            <span class="font-normal text-[18px] leading-[26px] text-[#8695A4]">Express, Handlebars</span>
+        </div>
+        <p class="font-normal text-[16px] leading-[24px] text-[#21243D] mt-4">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+        </p>
+    </div>
+</div>
+ <div class="mx-auto px-6 py-8 max-w-[856px]">
+    <h2 class="font-bold text-[44px] leading-[60px] text-[#21243D] mb-8">Blog</h2>
+    
+    <div class="pb-8 border-b border-[#E0E0E0]">
+        <h3 class="font-medium text-[26px] leading-[38px] text-[#21243D]">UI Interactions of the week</h3>
+        <div class="flex items-center mt-4 space-x-4">
+            <span class="font-normal text-[18px] leading-[26px] text-[#21243D]">12 Feb 2019</span>
+            <span class="">|</span>
+            <span class="font-normal text-[18px] leading-[26px] text-[#8695A4]">Express, Handlebars</span>
+        </div>
+        <p class="font-normal text-[16px] leading-[24px] text-[#21243D] mt-4">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+        </p>
+    </div>
+</div>
+ <div class="mx-auto px-6 py-8 max-w-[856px]">
+    <h2 class="font-bold text-[44px] leading-[60px] text-[#21243D] mb-8">Blog</h2>
+    
+    <div class="pb-8 border-b border-[#E0E0E0]">
+        <h3 class="font-medium text-[26px] leading-[38px] text-[#21243D]">UI Interactions of the week</h3>
+        <div class="flex items-center mt-4 space-x-4">
+            <span class="font-normal text-[18px] leading-[26px] text-[#21243D]">12 Feb 2019</span>
+            <span class="">|</span>
+            <span class="font-normal text-[18px] leading-[26px] text-[#8695A4]">Express, Handlebars</span>
+        </div>
+        <p class="font-normal text-[16px] leading-[24px] text-[#21243D] mt-4">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+        </p>
+    </div>
+</div>
+    
+    
+    <footer class="max-lg:w-full max-lg:text-center p-[54px] max-lg:p-[70px]">
+        <div class="flex justify-center gap-[35px]">
+            <button class="w-[30px] h-[30px]">
+                <img src="./fb.png" alt="facebook">
+            </button>
+            <button class="w-[30px] h-[30px]">
+                <img src="./insta.png" alt="insta">
+            </button>
+            <button class="w-[30px] h-[30px]">
+                <img src="./group.png" alt="twitter">
+            </button>
+            <button class="w-[30px] h-[30px]">
+                <img src="./Linkedin.png" alt="Linkedin">
+            </button>
+        </div>
+        <p class="text-[14px] text-[#21243D] font-[400] tracking-[0px] text-center pt-[20px] max-lg:text-nowrap">
+            Copyright ©2020 All rights reserved
+        </p>
+    </footer>
+
+</body>
+
+</html>

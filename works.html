@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Heebo:wght@100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="sticky top-0 bg-white z-50">
+        <div class="hidden max-lg:flex max-lg:justify-end px-6 py-4">
+            <button id="menu-btn" class="text-xl">☰</button>
+        </div>
+        <nav id="menu"
+            class="flex justify-end px-[54px] space-x-[30px] py-[24px] text-[20px] font-[500] tracking-[0px] text-[#000000] max-lg:hidden max-lg:flex-col max-lg:px-6 max-lg:py-4 max-lg:space-x-0 max-lg:space-y-4 max-lg:text-[15px]">
+            <a href="works.html">Works</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+    </header>
+    <script>
+        const btn = document.getElementById('menu-btn');
+        const menu = document.getElementById('menu');
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("max-lg:hidden");
+            btn.textContent = btn.textContent === "☰" ? "✕" : "☰";
+        });
+    </script>
+
+    <div>
+        <h2
+            class="lg:w-[856px] lg:mx-auto text-[22px] leading-[60px] tracking-[0px] max-lg:w-full max-lg:text-center max-lg:text-[18px]">
+            Works</h2>
+
+        <div class="flex justify-center gap-[15px] max-lg:flex-col max-lg:p-[18px] max-lg:w-full">
+            <img class="lg:w-[246px] lg:h-[180px] rounded-[6px] border-none" src="./image.png" alt="image">
+            <div class="flex flex-col justify-center">
+                <p
+                    class="text-[30px] font-[700] leading-[44px] tracking-[0px] text-nowrap mb-[17px] max-lg:text-[24px]">
+                    Designing Dashboards</p>
+                <div class="flex items-center mb-[15px]">
+                    <button class="w-[62px] h-[25px] rounded-[16px] bg-[#142850] flex items-center justify-center">
+                        <p class="text-[18px] text-white font-[900] tracking-[0px] max-lg:text-[16px]">2020</p>
+                    </button>
+                    <p
+                        class="font-[400] text-[20px] leading-[29px] tracking-[0px] text-[#8695A4] pl-[5%] max-lg:text-[16px]">
+                        Dashboard</p>
+                </div>
+                <p class="lg:w-[594px] text-[16px] text-[#21243D] font-[400] leading-[24px] tracking-[0px]">Amet minim
+                    mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+                    velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+        </div>
+    </div>
+    <hr class="border border-[#E0E0E0] lg:w-[858px] mx-auto mt-[3%] max-lg:w-[339px] max-lg:mx-auto">
+    <div class="max-lg:hidden mt-[3%]">
+        <div class="flex justify-center items-center gap-[15px] max-lg:flex-col max-lg:p-[18px] max-lg:w-full">
+            <img class="w-[246px] h-[180px] rounded-[6px] border-none max-lg:w-full max-lg:h-auto" src="./img2.png"
+                alt="image">
+            <div class="flex flex-col justify-center">
+                <p
+                    class="w-[305px] text-[30px] font-[700] leading-[44px] tracking-[0px] text-nowrap mb-[17px] max-lg:w-full max-lg:text-[24px]">
+                    Vibrant Portraits of 2020</p>
+                <div class="flex items-center mb-[15px]">
+                    <button
+                        class="w-[72px] h-[35px] rounded-[16px] bg-[#142850] flex items-center justify-center max-lg:w-[62px] max-lg:h-[25px]">
+                        <p class="text-[18px] text-white font-[900] tracking-[0px] max-lg:text-[16px]">2018</p>
+                    </button>
+                    <p
+                        class="font-[400] text-[20px] leading-[29px] tracking-[0px] text-[#8695A4] pl-[5%] max-lg:text-[16px]">
+                        Illustration</p>
+                </div>
+                <p class="w-[594px] text-[16px] text-[#21243D] font-[400] leading-[24px] tracking-[0px] max-lg:w-full">
+                    Amet minim
+                    mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+                    velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+        </div>
+    </div>
+    <hr class="border border-[#E0E0E0] lg:w-[858px] mx-auto mt-[3%] max-lg:hidden">
+
+    <div class="max-lg:hidden mt-[3%]">
+        <div class="flex justify-center items-center gap-[15px] max-lg:flex-col max-lg:p-[18px] max-lg:w-full">
+            <img class="w-[246px] h-[180px] rounded-[6px] border-none max-lg:w-full max-lg:h-auto" src="./img3.png"
+                alt="image">
+            <div class="flex flex-col justify-center">
+                <p
+                    class="w-[305px] text-[30px] font-[700] leading-[44px] tracking-[0px] text-nowrap mb-[17px] max-lg:w-full max-lg:text-[24px]">
+                    36 Days of Malayalam type</p>
+                <div class="flex items-center mb-[15px]">
+                    <button
+                        class="w-[72px] h-[35px] rounded-[16px] bg-[#142850] flex items-center justify-center max-lg:w-[62px] max-lg:h-[25px]">
+                        <p class="text-[18px] text-white font-[900] tracking-[0px] max-lg:text-[16px]">2018</p>
+                    </button>
+                    <p
+                        class="font-[400] text-[20px] leading-[29px] tracking-[0px] text-[#8695A4] pl-[5%] max-lg:text-[16px]">
+                        Typography</p>
+                </div>
+                <p class="w-[594px] text-[16px] text-[#21243D] font-[400] leading-[24px] tracking-[0px] max-lg:w-full">
+                    Amet minim
+                    mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+                    velit mollit.Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+        </div>
+    </div>
+    <hr class="border border-[#E0E0E0] lg:w-[858px] mx-auto mt-[3%] max-lg:hidden">
+    <div class="max-lg:hidden mt-[3%]">
+        <div class="flex justify-center gap-[15px] max-lg:flex-col max-lg:p-[18px] max-lg:w-full">
+            <img class="lg:w-[246px] lg:h-[180px] rounded-[6px] border-none max-lg:w-full max-lg:h-auto"
+                src="./img4.png" alt="image">
+            <div class="flex flex-col justify-center">
+                <p
+                    class="text-[30px] font-[700] leading-[44px] tracking-[0px] text-nowrap mb-[17px] max-lg:text-[24px]">
+                    Components</p>
+                <div class="flex items-center mb-[15px]">
+                    <button class="w-[62px] h-[25px] rounded-[16px] bg-[#142850] flex items-center justify-center">
+                        <p class="text-[18px] text-white font-[900] tracking-[0px] max-lg:text-[16px]">2020</p>
+                    </button>
+                    <p
+                        class="font-[400] text-[20px] leading-[29px] tracking-[0px] text-[#8695A4] pl-[5%] max-lg:text-[16px]">
+                        Components, Design</p>
+                </div>
+                <p
+                    class="lg:w-[594px] text-[16px] text-[#21243D] font-[400] leading-[24px] tracking-[0px] max-lg:w-full">
+                    Amet minim
+                    mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+                    velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+        </div>
+    </div>
+    <hr class="border border-[#E0E0E0] lg:w-[858px] mx-auto mt-[3%] max-lg:w-[339px] max-lg:mx-auto max-lg:hidden">
+    <div class="lg:hidden">
+        <div class="flex justify-center gap-[15px] max-lg:flex-col max-lg:p-[18px] max-lg:w-full">
+            <img class="w-full h-auto rounded-[6px] border-none" src="./img5.png" alt="image">
+            <div class="flex flex-col justify-center">
+
+            </div>
+
+            <div class="max-lg:w-full max-lg:text-center p-[54px] max-lg:p-[70px]">
+                <div class="flex flex-cols-4 gap-[35px] justify-center">
+                    <button class="w-[30px] h-[30px]">
+                        <img src="./fb.png" alt="facebook">
+                    </button>
+                    <button class="w-[30px] h-[30px]">
+                        <img src="./insta.png" alt="insta">
+                    </button>
+                    <button class="w-[30px] h-[30px]">
+                        <img src="./group.png" alt="">
+                    </button>
+                    <button class="w-[30px] h-[30px]">
+                        <img src="./Linkedin.png" alt="Linkedin">
+                    </button>
+                </div>
+                <p
+                    class="text-[14px] text-[#21243D] font-[400] tracking-[0px] text-center pt-[20px] max-lg:text-nowrap">
+                    Copyright ©2020 All rights reserved</p>
+            </div>
+</body>
+
+</html>
